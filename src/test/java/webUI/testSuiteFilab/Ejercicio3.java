@@ -22,7 +22,7 @@ public class Ejercicio3 {
     }
 
     @Test
-    public void loginTesting() {
+    public void signupTesting() {
         this.singUp();
         this.createProject();
     }
