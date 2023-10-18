@@ -1,5 +1,4 @@
 package apiTest.testSuite;
-
 import apiTest.config.Configuration;
 import apiTest.factory.FactoryRequest;
 import org.json.JSONObject;
@@ -7,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.equalTo;
 
-public class CRUDTest extends TestBaseAuthBasic {
+public class Ejercicio1 extends  TestBaseAuthBasic{
 
     @Test
     public void createUpdateDeleteProject(){
