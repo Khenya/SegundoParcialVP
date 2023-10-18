@@ -1,4 +1,4 @@
-package apiTest.testSuite;
+package apiTest.testSuiteFilab;
 import apiTest.config.Configuration;
 import apiTest.factory.FactoryRequest;
 import org.json.JSONObject;
@@ -11,36 +11,34 @@ public class Ejercicio1 extends  TestBaseAuthBasic{
     @Test
     public void createUpdateDeleteProject(){
         JSONObject body = new JSONObject();
-        body.put("Content","Refactor");
+        body.put("Email", "user@email.com");
+        body.put("FullName", "Joe Blow");
+        body.put("Password", "pASswoRd");
 
-        this.createProject(Configuration.host + "/api/projects.json", body, post);
-        int idProject = response.then().extract().path("Id");
-        this.readProject(idProject, get, body);
-        body.put("Content","Refactor1");
-        this.updateProject(Configuration.host + "/api/projects/" + idProject + ".json", body, put);
-        this.deleteProject(idProject, delete, body);
+
+        this.createUsuer(Configuration.host + "/api/user.json", body, post);
+
+//        int token = response.then().extract().path("token");
+//
+//        this.createProject(Configuration.host + "/api/projects.json", body, post);
+//
+//        this.deleteUser(token, delete,body);
+//
+//        this.createProject(Configuration.host + "/api/projects.json", body, post);
     }
-
-    private void deleteProject(int idProject, String delete, JSONObject body) {
-        requestInfo.setUrl(Configuration.host + "/api/projects/" + idProject + ".json");
+    private void deleteUser(int token, String delete, JSONObject body) {
+        requestInfo.setUrl(Configuration.host + "/api/user/0" + token + ".json");
         response = FactoryRequest.make(delete).send(requestInfo);
         response.then().statusCode(200).
-                body("Content", equalTo(body.get("Content")));
+                body("Email", equalTo(body.get("Content")));
     }
 
-    private void updateProject(String host, JSONObject body, String put) {
+    private void createUsuer(String host, JSONObject body, String post) {
         requestInfo.setUrl(host)
                 .setBody(body.toString());
-        response = FactoryRequest.make(put).send(requestInfo);
+        response = FactoryRequest.make(post).send(requestInfo);
         response.then().statusCode(200).
-                body("Content", equalTo(body.get("Content")));
-    }
-
-    private void readProject(int idProject, String get, JSONObject body) {
-        requestInfo.setUrl(Configuration.host + "/api/projects/" + idProject + ".json");
-        response = FactoryRequest.make(get).send(requestInfo);
-        response.then().statusCode(200).
-                body("Content", equalTo(body.get("Content")));
+                body("Email", equalTo(body.get("user@email.com")));
     }
 
     private void createProject(String host, JSONObject body, String post) {

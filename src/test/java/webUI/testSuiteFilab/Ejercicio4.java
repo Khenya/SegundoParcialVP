@@ -1,4 +1,4 @@
-package webUI.testSuite;
+package webUI.testSuiteFilab;
 
 public class Ejercicio4 {
 }

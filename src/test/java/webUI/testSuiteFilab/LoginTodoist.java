@@ -1,4 +1,4 @@
-package webUI.testSuite;
+package webUI.testSuiteFilab;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

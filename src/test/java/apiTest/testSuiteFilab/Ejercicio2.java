@@ -1,4 +1,4 @@
-package apiTest.testSuite;
+package apiTest.testSuiteFilab;
 
 public class Ejercicio2 {
 }

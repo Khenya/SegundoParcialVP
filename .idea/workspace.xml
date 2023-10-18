@@ -10,23 +10,17 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/config/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/FactoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/IRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/RequestDELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/RequestGET.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/RequestInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/RequestPOST.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/factory/RequestPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuite/CRUDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuite/TestBaseAuthBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuiteFilab/CRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuiteFilab/Ejercicio2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Button.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Control.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Label.java" afterDir="false" />
@@ -46,14 +40,22 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/ItemsSection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/LeftSection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/LoginSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/MainPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/MenuSection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/ProfileDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/SignUpSection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/webUI/session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginTodoist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/LoginTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/Chrome/LICENSE.chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/Chrome/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/testSuite/CRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuiteFilab/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/testSuite/TestBaseAuthBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/testSuiteFilab/TestBaseAuthBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/todoly/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginTodoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/LoginTodoist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuiteFilab/Ejercicio3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -103,7 +108,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "B:/ExamenesQA/Nueva carpeta",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -116,8 +121,83 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\ExamenesQA\Examen2\segundoPartcialVP\src\test\resources\Chrome" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apiTest.testSuite" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.LoginTest">
+    <configuration name="CRUDTest.createUpdateDeleteProject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;apiTest.testSuiteFilab.CRUDTest.createUpdateDeleteProject&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio1.createUpdateDeleteProject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;apiTest.testSuiteFilab.Ejercicio1.createUpdateDeleteProject&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;webUI.testSuiteFilab.LoginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginTodoist.login" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,6 +224,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.Ejercicio1.createUpdateDeleteProject" />
+        <item itemvalue="Gradle.CRUDTest.createUpdateDeleteProject" />
         <item itemvalue="Gradle.LoginTodoist.login" />
       </list>
     </recent_temporary>
@@ -159,7 +242,7 @@
       <workItem from="1697629030720" duration="2611000" />
       <workItem from="1697645930429" duration="612000" />
       <workItem from="1697648773929" duration="234000" />
-      <workItem from="1697649039944" duration="3425000" />
+      <workItem from="1697649039944" duration="11856000" />
     </task>
     <servers />
   </component>
